@@ -1,0 +1,427 @@
+#
+# Sera - OnePage Jekyll Template
+# Configuration File
+#
+
+# Information for compile
+exclude: ["node_modules", "gulpfile.js", "package.json", "Gemfile", "README.md"]
+
+#
+# If your website is placed in a separate folder on your server please modify
+# this with your folder name, by default is empty.
+# Example: Sera Demo is hosted on projects.gleesik.ro/sera-onepage
+# If I compile Sera Template and I put in /sera-onepage without modifing baseurl
+# than scripts can't be loaded corectly.
+# For this example my site url is: projects.gleesik.ro (This can be just www.example.com)
+# My folder for Demo Website is: /sera-onepage so baseurl: /sera-onepage
+#
+baseurl:
+
+# the base hostname & protocol for your site
+url: "http://localhost:3000"
+
+####################################
+######   Optional Features    ######
+####################################
+smooth-scroll: false
+
+####################################
+###########   Plugins    ###########
+####################################
+plugins:
+  - jekyll-archives # Sorry, not GitHub pages friendly!
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: 'archive'
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
+
+#######################################################
+#######################################################
+###############   HEADER INFORMATIONS   ###############
+#######################################################
+#######################################################
+
+# This is your site title
+title: Infersence - Integrating ML applications
+# Website language
+lang: en-US
+# Header Title
+header-title: Integrating <strong>ML applications</strong>
+# Header Tagline
+headter-tagline: Infersence
+
+####################################
+######   CTA Header Buttons   ######
+####################################
+
+# Focus Buttons
+header-focus-button:
+  title: Download Now
+  url: https://themeforest.net/collections/6069390-sera
+
+# Secondary Buttons
+header-secondary-button:
+  title: Discover More
+  url: http://themeforest.net/user/gleesik
+
+#
+# This is your email adress, contact from send here all emails from contact section
+# IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
+# To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
+#
+email: your_email@example.com
+
+# Offer Banner Link
+# Default link is a link to all Sera OnePage products
+banner-link: https://themeforest.net/collections/6069390-sera
+
+####################################
+######  Global Social Links   ######
+####################################
+youtube: '#'
+pinterest: '#'
+facebook: '#'
+twitter: '#'
+google-plus: '#'
+vimeo: '#'
+
+#########################
+######   Widgets   ######
+#########################
+
+#
+# About Blog Author Widget
+#
+about-widget:
+  author-avatar: avatar-02.jpg
+  author-name: John Doe
+  author-tagline: Blog Author
+  author-info: Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies.
+  author-social-links:
+    youtube: '#'
+    pinterest: '#'
+    facebook: '#'
+    twitter: '#'
+    google-plus: '#'
+
+# Google Map JS api
+# This is my api for this template
+key-api: AIzaSyDbnxVZQannH0GF4gtnnBFPiP9ofm2WqGs
+map-text: Infersence Google Map
+map-text-location: Athens, Greece
+map-lat: 44.4267674
+map-lng: 26.102538399999958
+
+# Enter your Mailchimp User ID and Campaign ID
+# @TODO: Add in a link for where to find these
+mailchimp:
+  user-id: REPLACEME
+  list-id: REPLACEME
+
+####
+#
+# Hi you now use Sera - OnePage Jekyll Template created by Gleesik™
+#
+# Below are each section from the website in order from top to bottom
+# @TODO Edit each sections with your real information and each section from Sera will autocomplete with your information
+#
+####
+
+#####################################
+#############   About   #############
+#####################################
+# about-title: Data Inference for decision support based on ML Sense.
+about-title: About
+#about-description: We deliver a range of direct consulting services and tailor made applications for customer-specific demands by bridging massive data assets with intuitive AI frameworks, forming decision support solutions. Capitalizing on solid experience in multi-disciplinary high-profile engineering research, Infersence aims to establish new boundaries in AI exploitation within higher order complexity processes of diverse domains. Stay ahead of your competition by introducing Infersence’s added value to your practices.
+about-description: Infersence delivers a range of direct consulting services and tailor made applications for customer-specific demands by bridging data assets with intuitive AI frameworks, forming decision support solutions. Capitalizing on solid experience in multi-disciplinary high-profile engineering research, Infersence aims to establish new boundaries in AI exploitation within complex processes of diverse domains. Stay ahead of your competition by introducing Infersence’s added value to your practices.
+
+#####################################
+#############  Features  ############
+#####################################
+features-title: Expertise
+features-description:
+
+#
+# Features
+#
+features:
+
+# Feature
+- title: Applied Optimization
+  description: Solid hands-on and academic experience on designing and deploying state-of-the-art optimization solutions
+  icon: pe-7s-vector
+
+# Feature
+- title: Machine Learning
+  description: Cutting edge AI and ML application development and customization.
+  icon: pe-7s-help2
+
+# Feature
+- title: Data Exploitation
+  description: Feature mining on datasets ranging from simple databases to big data warehouses.
+  icon: pe-7s-airplay
+
+# Feature
+- title: Agile Software Development
+  description: Upgrading your everyday practises by adding pervasive AI-enhanced elements in critical components of your workflow.
+  icon: pe-7s-cloud child-center 
+
+
+
+#####################################
+############  Portfolio  ############
+#####################################
+portfolio-title: Portfolio
+portfolio-description: Maecenas tempus nec mi et placerat. Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis.
+
+#
+# Portfolio Grid
+#
+portfolio-categories: [Websites, Logo, Graphic Design, Development, Video, Photography]
+portfolio:
+
+# Portfolio Item
+- title: S<span class="thin">era</span> Style
+  categories: [Websites, Graphic Design]
+  image: img-01.jpg
+  url: '#'
+
+# Portfolio Item
+- title: S<span class="thin">era</span> Style
+  categories: [Graphic Design, Logo, Websites]
+  image: img-02.jpg
+  url: '#'
+
+# Portfolio Item
+- title: S<span class="thin">era</span> Style
+  categories: [Graphic Design, Logo, Photography]
+  image: img-03.jpg
+  url: '#'
+
+# Portfolio Item
+- title: S<span class="thin">era</span> Style
+  categories: [Websites, Video, Photography]
+  image: img-04.jpg
+  url: '#'
+
+# Portfolio Item
+- title: S<span class="thin">era</span> Style
+  categories: [Development, Logo]
+  image: img-05.jpg
+  url: '#'
+
+# Portfolio Item
+- title: S<span class="thin">era</span> Style
+  categories: [Development, Video]
+  image: img-06.jpg
+  url: '#'
+
+# Portfolio Item
+- title: S<span class="thin">era</span> Style
+  categories: [Websites, Graphic Design]
+  image: img-07.jpg
+  url: '#'
+
+# Portfolio Item
+- title: S<span class="thin">era</span> Style
+  categories: [Websites , Video]
+  image: img-08.jpg
+  url: '#'
+
+# Portfolio Item
+- title: S<span class="thin">era</span> Style
+  categories: [Photography, Logo]
+  image: img-09.jpg
+  url: '#'
+
+
+#####################################
+##########  Optistructure  ##########
+#####################################
+optstructure-title: Optistructure
+optstructure-description: <p>OptiStructure - Spearheading value engineering revolution in Architectural, Engineering & Construction industry via structural engineering design optimization.</p><p>OptiStructure brings to market cutting-edge in-house developed engineering optimization solutions originating from deep academic background and a diverse cluster of expertise. Offered services vary from project-wise structural engineering design optimization consultation to custom engineering optimization solutions.</p><p>OptiStructure focuses on delivering the optimal balance between construction cost, structural performance, reliability, safety and ecological responsibility.</p<
+
+#####################################
+##########  Embryosense  ##########
+#####################################
+embryosense-title: Embryosense
+embryosense-description: <p>EmbryoSense is a holistic data and machine learning platform, driving intelligent decision making in IVF. The platform supports In Vitro Fertilization decisioning via knowledge extraction, machine learning and big data exploitation. Through the use of the platform, decisions taken by the medical staff in the IVF process are assisted by actionable information provided by deep data analytics and AI insights. These insights are derived from data-based correlations defined by the platform’s unique machine learning capabilities and by modeling vast amounts of existing domain expertise. The EmbryoSense platform surfaces powerful insights which can be used to increase success rates of IVF applications. The platform consists of 2 core components</p><p>Visualization of high level analytics and insights throughout the cycle, from fertilization to implantation.</p><p>AI-supported grading, enabling the embryologist access to an accurate and data driven embryo selection aid.</p>
+
+#####################################
+##########  Research  ##########
+#####################################
+research-title: Research
+research-description: <p>Additive Manufacturing (AM) has attracted the interest of industry due to its potential for flexible and automated production of complex geometry objects, in combination with minimizing time required to develop new products. According to recent analysis, the market for AM products is projected to grow annually by 18%. Although AM technologies are an integral part of digitized industrial production and therefore the 4th industrial revolution; Architectural, Engineering & Construction Industry (AECI) is reluctant to adopt AM technologies in design and construction of buildings, bridges etc. Since 80's AECI has been a pillar industry, now its scale expands and its impact on the global economy is significant. Nevertheless, some issues are exposed to its rapid development, which contributes to a large amount of waste production, huge energy consumption and severe environmental pollution. The recent Green New Deal for Europe sets as a primary objective the reform of heavy industry, including AECI, which accounts for 40% of the energy consumed on the continent. The main tools for achieving this objective are to minimize both materials used and amount of AECI waste. The principal aim of ADDOPTML Network is to create and test an holistic machine learning aided optimum design-manufacturing process of civil structures by developing strong synergies among a multi-disciplinary team of academic experts and SMEs from Belgium, Cyprus, Germany, Greece, Italy, Jordan, Netherlands and Spain. This will be achieved taking advantage of ongoing progress in AM technologies including recycled consumables. Contributing among others to the great challenge becoming Europe the world's first climate-neutral bloc by 2050. In addition, as coronavirus pandemic continues to sweep the World, many countries are facing shortage of intensive care units and emergency rooms; an integrated structural design framework based on AM optimized structural elements for transitional structures will be developed.<p>
+
+#####################################
+########### Testimonials ############
+#####################################
+testimonials-title: Meet Our Team
+testimonials-description: The people behind Infersence platform.
+
+#
+# Testimonials
+#
+testimonials:
+
+# Client
+- name: Dr. Chara Ch. Mitropoulou
+  url: http://xxx
+  url-text: LinkedIn
+  avatar: chara.png
+  cite: Is an active member of the computational earthquake engineering research community, focusing among others on performance-based earthquake engineering, structural design optimization of real-world structures and AI in structural engineering. Chara is the PI of IMSAFER.
+  logo-img: themeforest.png
+
+# Client
+- name: Dr Nikos Kallioras
+  url: https://www.linkedin.com/in/nikos-kallioras-3695b27b/
+  url-text: LinkedIn
+  avatar: Nikos_Kallioras.jpg
+  cite: ML/AI enthusiast, with experience on hands-on application of ML and optimization solutions, Co-founder of OptiStructure.
+  logo-img: codecanyon.png
+
+# Client
+- name: Tsakalis Pantelis
+  url: https://www.linkedin.com/in/panteleimon-tsakalis-881ba413a/
+  url-text: LinkedIn
+  avatar: Pantelis.jpg
+  cite: Working on R&D in nanostructures and applied ML, programming geek, cloud-based databases developer.
+  logo-img: videohive.png
+
+# Client
+- name: Chamatidis
+  url: http://xxx
+  url-text: LinkedIn
+  avatar: avatar-01.jpg
+  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
+  logo-img: audiojungle.png
+
+
+#####################################
+############# Our Blog ##############
+#####################################
+blog-title: Our Blog
+blog-description: Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+
+
+#####################################
+############### Team ################
+#####################################
+team-title: Meet Our Team
+team-description: The people behind Infersence platform.
+
+#
+# Team Members
+#
+team:
+
+# Team Member
+- name: Jack Skilton
+  tagline: Graphic Designer
+  avatar: avatar-01.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: James Young
+  tagline: Developer
+  avatar: avatar-02.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Johnatan Doe
+  tagline: Hacker
+  avatar: avatar-04.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Ecaterina Doe
+  tagline: Support Expert
+  avatar: avatar-03.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+
+#####################################
+########## Pricing Tables ###########
+#####################################
+pricing-title: Pricing Tables
+pricing-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+
+#
+# Plan Personal
+#
+plan-personal-price: $99
+plan-personal-offer-1-title: 01 PSD Pack
+plan-personal-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-personal-offer-2-title: 100 Support Tickets
+plan-personal-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-personal-url: '#'
+
+#
+# Plan Business
+#
+plan-business-price: $499
+plan-business-offer-1-title: 05 PSD Pack
+plan-business-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-business-offer-2-title: 1000 Support Tickets
+plan-business-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-business-url: '#'
+
+#
+# Plan Ultimate
+#
+plan-ultimate-price: $999
+plan-ultimate-offer-1-title: 10 PSD Pack
+plan-ultimate-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-ultimate-offer-2-title: Support Unlimited
+plan-ultimate-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-ultimate-url: '#'
+
+
+#####################################
+############   Contact   ############
+#####################################
+contact-title: Contact Us
+contact-description: Infersence <br> G. Mpakou 1, Athens, 11524 <br> Greece <br> info@infersence.com
+
+
+
+#####################################
+#############   Footer   ############
+#####################################
+footer-description: Infersence - Integrating ML applications
+footer-copyright-text: Infersence&trade;
+footer-copyright-url: http://www.infersence.com/
+footer-copyright-year: 2020
