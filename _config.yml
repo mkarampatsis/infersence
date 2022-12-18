@@ -271,7 +271,7 @@ testimonials:
 
 # Client
 - name: Dr. Chara Ch. Mitropoulou
-  url: http://xxx
+  url: 'https://www.linkedin.com/in/chara-mitropoulou-a6a7093b/'
   url-text: LinkedIn
   avatar: chara.png
   cite: Is an active member of the computational earthquake engineering research community, focusing among others on performance-based earthquake engineering, structural design optimization of real-world structures and AI in structural engineering. Chara is the PI of IMSAFER.
