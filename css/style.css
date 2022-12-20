@@ -208,6 +208,10 @@ table {
   text-align: right;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .text-focus {
   color: #21c2f8;
 }

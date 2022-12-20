@@ -295,11 +295,11 @@ testimonials:
 
 # Client
 - name: Chamatidis
-  url: http://xxx
+  url: https://www.linkedin.com/in/ilias-chamatidis-840a011a4/
   url-text: LinkedIn
-  avatar: avatar-01.jpg
-  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: audiojungle.png
+  avatar: chamatidis1.jpg
+  cite: Ilias Chamatidis is a researcher in the fields of topology optimization and artificial intelligence. He holds a Master's degree in Artificial Intelligence from Aristotle University of Thessaloniki and a Bachelor's degree in Computer Science. His interests are artificial intelligence, high performance computing, machine learning and algorithms.
+  logo-img: videohive.png
 
 
 #####################################
