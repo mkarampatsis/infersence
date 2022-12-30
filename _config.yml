@@ -244,19 +244,19 @@ portfolio:
 ##########  Optistructure  ##########
 #####################################
 optstructure-title: Optistructure
-optstructure-description: <p>OptiStructure - Spearheading value engineering revolution in Architectural, Engineering & Construction industry via structural engineering design optimization.</p><p>OptiStructure brings to market cutting-edge in-house developed engineering optimization solutions originating from deep academic background and a diverse cluster of expertise. Offered services vary from project-wise structural engineering design optimization consultation to custom engineering optimization solutions.</p><p>OptiStructure focuses on delivering the optimal balance between construction cost, structural performance, reliability, safety and ecological responsibility.</p<
+optstructure-description: <p>A cloud-based service designed by Infersence for incorporating sustainable design in the construction sector. OptiStructure service offers structural design optimization focusing on reducing embodied carbon in constructions via AI.</p>
 
 #####################################
 ##########  Embryosense  ##########
 #####################################
 embryosense-title: Embryosense
-embryosense-description: <p>EmbryoSense is a holistic data and machine learning platform, driving intelligent decision making in IVF. The platform supports In Vitro Fertilization decisioning via knowledge extraction, machine learning and big data exploitation. Through the use of the platform, decisions taken by the medical staff in the IVF process are assisted by actionable information provided by deep data analytics and AI insights. These insights are derived from data-based correlations defined by the platform’s unique machine learning capabilities and by modeling vast amounts of existing domain expertise. The EmbryoSense platform surfaces powerful insights which can be used to increase success rates of IVF applications. The platform consists of 2 core components</p><p>Visualization of high level analytics and insights throughout the cycle, from fertilization to implantation.</p><p>AI-supported grading, enabling the embryologist access to an accurate and data driven embryo selection aid.</p>
+embryosense-description: <p>A cloud-based decision support system designed by Infersence in the IVF sector. EmbryoSense is a platform that uses data analytics and deep learning features for assisting decisions in the IVF procedure. The goal of EmbryoSense is to enrich the data environment on which embryologists and biologists rely on.</p>
 
 #####################################
 ##########  Research  ##########
 #####################################
 research-title: Research
-research-description: <p>Additive Manufacturing (AM) has attracted the interest of industry due to its potential for flexible and automated production of complex geometry objects, in combination with minimizing time required to develop new products. According to recent analysis, the market for AM products is projected to grow annually by 18%. Although AM technologies are an integral part of digitized industrial production and therefore the 4th industrial revolution; Architectural, Engineering & Construction Industry (AECI) is reluctant to adopt AM technologies in design and construction of buildings, bridges etc. Since 80's AECI has been a pillar industry, now its scale expands and its impact on the global economy is significant. Nevertheless, some issues are exposed to its rapid development, which contributes to a large amount of waste production, huge energy consumption and severe environmental pollution. The recent Green New Deal for Europe sets as a primary objective the reform of heavy industry, including AECI, which accounts for 40% of the energy consumed on the continent. The main tools for achieving this objective are to minimize both materials used and amount of AECI waste. The principal aim of ADDOPTML Network is to create and test an holistic machine learning aided optimum design-manufacturing process of civil structures by developing strong synergies among a multi-disciplinary team of academic experts and SMEs from Belgium, Cyprus, Germany, Greece, Italy, Jordan, Netherlands and Spain. This will be achieved taking advantage of ongoing progress in AM technologies including recycled consumables. Contributing among others to the great challenge becoming Europe the world's first climate-neutral bloc by 2050. In addition, as coronavirus pandemic continues to sweep the World, many countries are facing shortage of intensive care units and emergency rooms; an integrated structural design framework based on AM optimized structural elements for transitional structures will be developed.<p>
+research-description: <p>Develop a holistic machine learning aided optimum design and manufacturing process of civil structures through strong synergies among a multi-disciplinary team of academia and SMEs from Belgium, Cyprus, Germany, Greece, Italy, Jordan, Netherlands and Spain.<p>
 
 #####################################
 ########### Testimonials ############
@@ -270,7 +270,7 @@ testimonials-description: The people behind Infersence platform.
 testimonials:
 
 # Client
-- name: Dr. Chara Ch. Mitropoulou
+- name: Chara Ch. Mitropoulou
   url: 'https://www.linkedin.com/in/chara-mitropoulou-a6a7093b/'
   url-text: LinkedIn
   avatar: chara.png
@@ -278,7 +278,7 @@ testimonials:
   logo-img: themeforest.png
 
 # Client
-- name: Dr Nikos Kallioras
+- name: Nikos Kallioras
   url: https://www.linkedin.com/in/nikos-kallioras-3695b27b/
   url-text: LinkedIn
   avatar: Nikos_Kallioras.jpg
